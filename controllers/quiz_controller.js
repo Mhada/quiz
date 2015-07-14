@@ -14,5 +14,5 @@ exports.answer = function(req, res) {
 
 // GET /authors
 exports.authors = function(req, res) {
-   res.render('authors', {autor: 'Magdalena Báscones Carrillo',foto: 'images/mhada.png'});
+   res.render('authors', {autor: 'Magdalena Báscones Carrillo', foto: 'images/mhada.png'});
  };
